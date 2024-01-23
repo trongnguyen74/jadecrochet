@@ -16,7 +16,7 @@ const Navbar:React.FC = () => {
         <img className="w-[150px]" src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="logo"/>
       </Link>
       <ul className=
-      {`absolute w-full h-[34%] z-10 bg-[#FFF] top-0 left-0 text-center space-y-10 margin:0 padding:0 ${isOpen ? 'block' : 'hidden'}
+      {`absolute w-full h-full z-10 bg-[#FFF] top-0 left-0 text-center space-y-10 margin:0 padding:0 ${isOpen ? 'block' : 'hidden'}
         md:flex items-center md:static md:h-fit md:w-fit md:space-x-10 md:space-y-0
       `}>
         <span className="absolute top-2 right-2 text-[#CCC] md:hidden" onClick={closeNavbar}><i className="fa-solid fa-xmark text-[35px]"></i></span>

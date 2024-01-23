@@ -13,14 +13,14 @@ const Home:React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] md:w-[40%] md:min-w-[60%] flex h-fit bg-[#fef4ea] mx-auto">
+        <div className="w-[100%] md:w-[40%] md:min-w-[50%] flex h-fit bg-[#fef4ea] mx-auto">
           <div className="w-[50%]">
             <img className="w-full" src={process.env.PUBLIC_URL + '/assets/images/thumbnail-product-home.gif'} />
           </div>
           <div className="w-[50%] px-4">
             <div className="brittany-title text-[20px]">Get my products!</div>
             <div>
-              Take look around my shop. Here you will find my crochet patterns and collections. Hope you find your favorite products!
+              Here you will find my crochet patterns and collections. Hope you find your favorite products!
             </div>
           </div>
         </div>

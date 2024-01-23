@@ -54,10 +54,10 @@ ul{
   border-radius: 4px;
   padding: 6px 10px;
   box-sizing: border-box;
-  background: #fef4ea;
+  background: #efdfde;
 }
 .home-button:hover{
-  border: 5px solid #fef4ea;
+  border: 5px solid #efdfde;
   background: #FFF;
   color: #000;
 }
