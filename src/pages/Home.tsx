@@ -18,9 +18,9 @@ const Home:React.FC = () => {
             <img className="w-full" src={process.env.PUBLIC_URL + '/assets/images/thumbnail-product-home.gif'} />
           </div>
           <div className="w-[50%] px-4">
-            <div className="brittany-title text-[20px]">Get my products!</div>
+            <div className="brittany-title text-[20px] text-[1.5rem] md:text-[2.5rem]">Get my products!</div>
             <div>
-              Here you will find my crochet patterns and collections. Hope you find your favorite products!
+              Dive in and take a look at my shop. <span className="hidden md:inline">Here you will find my crochet patterns and collections. Hope you bring yourself some favorite products!</span>
             </div>
           </div>
         </div>

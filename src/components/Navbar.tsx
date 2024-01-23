@@ -8,16 +8,16 @@ const Navbar:React.FC = () => {
   let showNavBar = () => openNav(true);
 
   return (
-    <nav id="navbar" className="flex items-center w-full h-[120px] px-[20px] justify-between">
+    <nav className="navbar">
       <div className="menu-mobile-button md:hidden" onClick={showNavBar}>
         <i className="fa-solid fa-bars text-[25px]"></i>
       </div>
       <Link to="/">
-        <img className="w-[150px]" src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="logo"/>
+        <img className="w-[120px]" src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="logo"/>
       </Link>
       <ul className=
-      {`absolute w-full h-full z-10 bg-[#FFF] top-0 left-0 text-center space-y-10 margin:0 padding:0 ${isOpen ? 'block' : 'hidden'}
-        md:flex items-center md:static md:h-fit md:w-fit md:space-x-10 md:space-y-0
+      {`absolute w-full h-fit bg-[#FFF] top-0 left-0 text-center space-y-10 opacity-[0.95] py-20 ${isOpen ? 'block' : 'hidden'}
+        md:flex items-center md:static md:h-fit md:w-fit md:space-x-10 md:space-y-0 md:py-0
       `}>
         <span className="absolute top-2 right-2 text-[#CCC] md:hidden" onClick={closeNavbar}><i className="fa-solid fa-xmark text-[35px]"></i></span>
         <li onClick={closeNavbar}><Link to="/">Home</Link></li>
