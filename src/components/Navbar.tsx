@@ -12,11 +12,9 @@ const Navbar:React.FC = () => {
       <div className="menu-mobile-button md:hidden" onClick={showNavBar}>
         <i className="fa-solid fa-bars text-[25px]"></i>
       </div>
-      <div className="w-[35%] md:w-[12%]">
-        <Link to="/">
-          <img className="w-full" src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="logo"/>
-        </Link>
-      </div>
+      <Link to="/">
+        <img className="w-[150px]" src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="logo"/>
+      </Link>
       <ul className=
       {`absolute w-full h-[34%] z-10 bg-[#FFF] top-0 left-0 text-center space-y-10 margin:0 padding:0 ${isOpen ? 'block' : 'hidden'}
         md:flex items-center md:static md:h-fit md:w-fit md:space-x-10 md:space-y-0
