@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Home:React.FC = () => {
   return (
@@ -25,10 +25,10 @@ const Home:React.FC = () => {
           </div>
         </div>
         <div className="text-center mt-4 md:mt-6">
-          <Link className="home-button" to="/product">VISIT MY SHOP</Link>
+          <Link className="home-button" to="/store">VISIT MY STORE</Link>
         </div>
         <div className="h-fit">
-          <div className="hero-blog w-[95vw] h-[220px] md:w-[70vw] md:h-[350px] md:mx-auto"></div>
+          <div className="hero-chart w-[95vw] h-[220px] md:w-[70vw] md:h-[350px] md:mx-auto"></div>
           <div className="w-[80%] h-[140px] bg-[#fef4ea] mx-auto mt-[-80px] rounded-[6px] md:w-[60%] md:h-[160px] md:mt-[-130px]">
             <div className="text-[1.5rem] text-center brittany-title md:text-[2.5rem]">Visit my chart</div>
             <div className="px-4 text-center">Here where you can learn or discover how to crochet things in my collections </div>
