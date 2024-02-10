@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jadecrochet/static/css/main.2923569c.css",
-    "main.js": "/jadecrochet/static/js/main.756995b9.js",
+    "main.css": "/jadecrochet/static/css/main.6c77ce09.css",
+    "main.js": "/jadecrochet/static/js/main.30bd5c12.js",
     "static/js/289.a5c9bbf3.chunk.js": "/jadecrochet/static/js/289.a5c9bbf3.chunk.js",
     "static/media/hero-blog.gif": "/jadecrochet/static/media/hero-blog.a6fc16d1ae8b3e75160b.gif",
     "index.html": "/jadecrochet/index.html",
-    "main.2923569c.css.map": "/jadecrochet/static/css/main.2923569c.css.map",
-    "main.756995b9.js.map": "/jadecrochet/static/js/main.756995b9.js.map",
+    "main.6c77ce09.css.map": "/jadecrochet/static/css/main.6c77ce09.css.map",
+    "main.30bd5c12.js.map": "/jadecrochet/static/js/main.30bd5c12.js.map",
     "289.a5c9bbf3.chunk.js.map": "/jadecrochet/static/js/289.a5c9bbf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2923569c.css",
-    "static/js/main.756995b9.js"
+    "static/css/main.6c77ce09.css",
+    "static/js/main.30bd5c12.js"
   ]
 }
