@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jadecrochet/static/css/main.e2c17d82.css",
-    "main.js": "/jadecrochet/static/js/main.432edfc4.js",
-    "static/js/289.a5c9bbf3.chunk.js": "/jadecrochet/static/js/289.a5c9bbf3.chunk.js",
-    "static/media/hero-blog.gif": "/jadecrochet/static/media/hero-blog.a6fc16d1ae8b3e75160b.gif",
-    "index.html": "/jadecrochet/index.html",
-    "main.e2c17d82.css.map": "/jadecrochet/static/css/main.e2c17d82.css.map",
-    "main.432edfc4.js.map": "/jadecrochet/static/js/main.432edfc4.js.map",
-    "289.a5c9bbf3.chunk.js.map": "/jadecrochet/static/js/289.a5c9bbf3.chunk.js.map"
+    "main.css": "/static/css/main.41dc84f6.css",
+    "main.js": "/static/js/main.0a0d12e6.js",
+    "static/js/289.a5c9bbf3.chunk.js": "/static/js/289.a5c9bbf3.chunk.js",
+    "static/media/hero-blog.gif": "/static/media/hero-blog.a6fc16d1ae8b3e75160b.gif",
+    "index.html": "/index.html",
+    "main.41dc84f6.css.map": "/static/css/main.41dc84f6.css.map",
+    "main.0a0d12e6.js.map": "/static/js/main.0a0d12e6.js.map",
+    "289.a5c9bbf3.chunk.js.map": "/static/js/289.a5c9bbf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2c17d82.css",
-    "static/js/main.432edfc4.js"
+    "static/css/main.41dc84f6.css",
+    "static/js/main.0a0d12e6.js"
   ]
 }
