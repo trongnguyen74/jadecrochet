@@ -1,7 +1,5 @@
-import React from 'react';
-
 export default interface Product {
-  id?: number,
+  id: number,
   name: string,
   price: number,
   sale_price: number,
@@ -11,5 +9,6 @@ export default interface Product {
   images: any,
   image_files: any,
   created_at: string,
-  updated_at: string
+  updated_at: string,
+  sold: number
 }
